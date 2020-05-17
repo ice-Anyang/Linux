@@ -1,3 +1,5 @@
+world:world.c
+	gcc $^ -o $@
 hello:hello.o
 	gcc hello.o -o hello
 hello.o:hello.s
