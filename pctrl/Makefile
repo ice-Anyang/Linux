@@ -1,3 +1,7 @@
+wait:wait.c
+	gcc $^ -o $@
+exit:exit.c
+	gcc $^ -o $@
 block:block.c
 	gcc $^ -o $@
 status:status.c
